@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layout_main">
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="80dp"
+		android:text="Latitude"
+		android:id="@+id/latitude_lbl"
+		android:layout_alignTop="@+id/latitude"
+		android:layout_alignParentLeft="true"
+		android:layout_marginTop="14dp"/>
+    <EditText android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:id="@+id/latitude"
+		android:layout_alignParentTop="true"		
+    	android:layout_toRightOf="@+id/latitude_lbl"/>
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="80dp"
+		android:text="Longitude"
+		android:id="@+id/longitude_lbl"
+		android:layout_alignTop="@+id/longitude"
+		android:layout_alignParentLeft="true"
+		android:layout_marginTop="14dp" />
+    <EditText android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:id="@+id/longitude"
+		android:layout_below="@+id/latitude"
+    	android:layout_toRightOf="@+id/longitude_lbl"/>
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="80dp"
+		android:text="Name"
+		android:id="@+id/name_lbl"
+		android:layout_alignTop="@+id/name"
+		android:layout_alignParentLeft="true"
+		android:layout_marginTop="14dp" />
+    <EditText android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:id="@+id/name"
+		android:layout_below="@+id/longitude"
+    	android:layout_toRightOf="@+id/name_lbl"/>
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="80dp"
+		android:text="Location"
+		android:id="@+id/location_lbl"
+		android:layout_alignTop="@+id/location"
+		android:layout_alignParentLeft="true"
+		android:layout_marginTop="14dp" />
+    <EditText android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:id="@+id/location"
+		android:layout_below="@+id/name"
+    	android:layout_toRightOf="@+id/location_lbl"/>
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="80dp"
+		android:text="Phone"
+		android:id="@+id/phone_lbl"
+		android:layout_alignTop="@+id/phone"
+		android:layout_alignParentLeft="true"
+		android:layout_marginTop="14dp" />
+    <EditText android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:id="@+id/phone"
+		android:layout_below="@+id/location"
+    	android:layout_toRightOf="@+id/phone_lbl"/>
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_below="@+id/phone"
+		android:text="@string/status"
+		android:id="@+id/status"
+		android:layout_marginTop="15dp" />
+
+    <Button android:layout_height="wrap_content"
+   		android:layout_width="200dp"
+		android:layout_below="@+id/status"
+   		android:id="@+id/export_btn"
+   		android:text="Export"
+   		android:layout_centerHorizontal="true"
+   		android:layout_marginTop="20dp"
+   		android:onClick="exportData" />
+
+</RelativeLayout>

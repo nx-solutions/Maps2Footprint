@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Maps 2 Footprint</string>
+    <string name="status">Select help in the options menu for instructions...</string>
+    <string name="help">Help</string>
+    <string name="help_info">
+    Fill out the GPS location and info fields and press \"Export\" to export the info to a file 
+    called Maps2Footprint.kml.\n
+    \n
+    By selecting \"Share this place\" in Google Maps and clicking Maps2Footprint in the menu 
+    list will fill out the GPS and info fields.\n
+    \n    
+    This file can be imported into HTC Locations by selecting \"Import\" from the Footprints menu.\n
+    \n
+    After importing the \"Footprint\" it can be found in \"All footprints\" to be edited or used for
+    navigation.\n
+    \n
+    \n
+    The highest accuracy is achieved when selecting an \"address\" and not a \"place\". This 
+    has to dowith the way that Google Maps passes on the information. Selecting a \"place\" does
+    give the advantage that the name and phone number fields are automatically filled out.\n
+    \n
+    If you\'ve got any problems with the application not being able to parse certain locations,
+    then please \"Share this place\" through e-mail and send the info to 
+    maps2footprint&#064;nx-solutions.com        
+    </string>
+</resources>
