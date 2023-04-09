@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion "28.0.3"
+    compileSdk 33
+    buildToolsVersion '33.0.2'
 
     defaultConfig {
         applicationId "com.nxsolutions.maps2footprint"
         minSdkVersion 15
-        targetSdkVersion 28
+        targetSdk 33
 
         testApplicationId "com.nxsolutions.maps2footprint.test"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
